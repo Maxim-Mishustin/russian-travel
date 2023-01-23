@@ -1,0 +1,52 @@
+.intro {
+  max-height: 429px;
+  max-width: 690px;
+  width: calc(100% - 148px - 442px);
+  display: flex;
+  flex-direction: column;
+  margin-top: 114px;
+
+}
+.intro__title {
+  height: 58px;
+  width: 100%;
+  color: white;
+  font-size: 54px;
+font-weight: 900;
+line-height: 58px;
+}
+
+.intro__text {
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.intro__lists {
+  width: 100%;
+  list-style-type: none;
+  outline: solid 1px red;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.intro__list {
+  outline: solid 1px rgb(0, 115, 255);
+  /* align-items: flex-start; не работает влево */
+  /* position: relative;
+  left: 0; не сработало*/
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.intro__span-list {
+  color: rgb(39, 215, 81);
+
+}

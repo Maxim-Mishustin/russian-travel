@@ -1,0 +1,14 @@
+.lead__title {
+  max-height: 200px;
+  max-width: 720px; 
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: center;
+  outline: solid 1px red;
+  /* align-items: center;
+  justify-content: center; не работают */
+  color: white;
+
+}

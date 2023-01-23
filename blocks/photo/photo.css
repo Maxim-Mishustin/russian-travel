@@ -1,0 +1,22 @@
+.photo {
+  max-width: 1184px;
+  width: calc(100% - 48px*2);
+  max-height: 671px;
+  margin: 92px 0;
+}
+.photo__items {
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  grid-template-rows: repeat(3, 33.3%);
+  list-style-type: none;
+  gap: 16px 16px;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+.photo__item {
+  height: 213px;
+  width: 284px;
+  /* grid-area: 1 / 1 / 5 / 4; не сработало */
+
+}
