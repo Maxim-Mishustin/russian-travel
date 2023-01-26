@@ -10,5 +10,7 @@
   /* align-items: center;
   justify-content: center; не работают */
   color: white;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  margin: 0;
 
 }

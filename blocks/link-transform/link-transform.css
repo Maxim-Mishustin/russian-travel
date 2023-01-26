@@ -1,0 +1,12 @@
+.link-transform {
+    /* text-decoration: none;
+    color: #2f80ed; */
+    transition: opacity 1.4s ease;
+    opacity: 100%;
+  }
+  
+  .link-transform:hover {
+    transition: opacity .4s ease;
+    opacity: 45%;
+    /* color: aqua; */
+  }
