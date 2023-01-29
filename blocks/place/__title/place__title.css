@@ -1,0 +1,19 @@
+.place__title {
+  color: white;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 100%;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  margin: 0;
+  outline: solid 1px rgb(235, 206, 151);
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+    width: 97%;
+  }  
+}

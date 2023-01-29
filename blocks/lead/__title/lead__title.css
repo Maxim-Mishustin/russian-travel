@@ -6,11 +6,14 @@
   line-height: 100px;
   letter-spacing: 0em;
   text-align: center;
-  outline: solid 1px red;
-  /* align-items: center;
-  justify-content: center; не работают */
   color: white;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   margin: 0;
+}
 
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    }
 }

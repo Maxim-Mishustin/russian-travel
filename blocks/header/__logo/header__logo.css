@@ -1,5 +1,11 @@
-.logo_place_header {
-    width: 176px;
+.header__logo {
+    max-width: 176px;
     color: #FFFFFF;
     outline: solid 1px red;
   }
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 142px;
+  }
+}

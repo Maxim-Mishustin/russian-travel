@@ -1,0 +1,12 @@
+.footer__links {
+  display: flex;
+  width: 39.3%;
+  justify-content: space-between;
+  outline: solid 1px wheat;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__links {
+    width: 465px;
+  }
+}

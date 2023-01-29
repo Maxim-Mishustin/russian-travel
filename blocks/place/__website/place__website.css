@@ -1,0 +1,13 @@
+.place__website {
+  width: 456px;
+  align-self: end;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+ .place__website {
+    width: 352px;
+    
+  }
+}
+
