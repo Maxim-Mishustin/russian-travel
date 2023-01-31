@@ -4,7 +4,6 @@
   max-width: 1184px;
   width: calc(100% - 48px*2);
   margin-bottom: 24px;
-  outline: solid 1px wheat;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,5 +17,15 @@
   .footer {
     max-width: 720px;
     width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .footer {
+    max-width: 600px;
+    width: 100%;
+    flex-direction: column;
+    gap: 48px;
+    padding-left: 16px;
   }
 }

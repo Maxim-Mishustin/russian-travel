@@ -3,16 +3,8 @@
   grid-area: 2 / 1;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 680px) {
   .place__image {
-    width: 440px;
-    grid-area: 2 / 1
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__image {
-    width: 340px;
-    grid-area: 2 / 1
+    grid-area: 3 / 1;
   }  
 }

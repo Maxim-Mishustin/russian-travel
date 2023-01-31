@@ -5,11 +5,24 @@
   justify-content: flex-start;
   outline: solid 1px rgb(9, 237, 9);
   gap: 26px;
-  
+  width: 100%;
 }
  
 @media screen and (max-width: 768px) {
   .place__paragraphs {
     gap: 25px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .place__paragraphs {
+    width: 100%;
+    grid-area: 4 / 1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraphs {
+    width: 90%;
   }
 }

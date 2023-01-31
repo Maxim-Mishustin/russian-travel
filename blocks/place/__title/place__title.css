@@ -6,7 +6,6 @@
   font-weight: 900;
   line-height: 76px;
   margin: 0;
-  outline: solid 1px rgb(235, 206, 151);
   font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
@@ -15,5 +14,22 @@
     font-size: 42px;
     line-height: 46px;
     width: 97%;
+  }  
+}
+
+@media screen and (max-width: 680px) {
+  .place__title {
+    font-size: 38px;
+    line-height: 42px;
+    width: 100%;
+    grid-area: 1 / 1;
+  }  
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 90%;
   }  
 }

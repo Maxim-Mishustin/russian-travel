@@ -1,13 +1,19 @@
 .place__website {
-  width: 456px;
+  max-width: 100%;
   align-self: end;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  grid-area: 1 / 2 / 2 / 3;
 }
 
-@media screen and (max-width: 768px) {
- .place__website {
-    width: 352px;
-    
+@media screen and (max-width: 680px) {
+  .place__website {
+    width: 100%;
+    grid-area: 2 / 1;
   }
 }
 
+@media screen and (max-width: 320px) {
+  .place__website {
+    width: 90%;
+  }
+}

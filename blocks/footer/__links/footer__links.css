@@ -1,12 +1,21 @@
 .footer__links {
   display: flex;
-  width: 39.3%;
-  justify-content: space-between;
-  outline: solid 1px wheat;
+  max-width: 70%;
+  width: calc(100% - 30%);
+  gap: 18px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .footer__links {
-    width: 465px;
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 708px) {
+  .footer__links {
+    width: 100%;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
   }
 }

@@ -1,5 +1,4 @@
 .lead__caption {
-  /* max-height: 14px; */
   max-width: 160px;   
   font-size: 10px;
   font-weight: 400;
@@ -14,5 +13,13 @@
     max-width: 160px;
     width: 100%;
     padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    max-width: 160px;
+    width: 100%;
+    padding-left: 16px;
   }
 }
