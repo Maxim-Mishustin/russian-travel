@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  outline: solid 1px rgb(9, 237, 9);
   gap: 26px;
   width: 100%;
 }

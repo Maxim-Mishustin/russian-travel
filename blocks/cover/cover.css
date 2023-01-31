@@ -24,8 +24,7 @@
   .cover {
     max-width: 768px;
     min-height: 480px;
-    /* margin: 84px 0 90px; верно*/
-    margin: 90px 0 88px;
+    margin: 84px 0 90px;
   }
 }
 
@@ -33,7 +32,6 @@
   .cover {
     max-width: 560px;
     min-height: 350px;
-    margin: 84px 0 90px;
   }
 }
 
