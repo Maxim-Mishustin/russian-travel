@@ -1,7 +1,6 @@
 .place__website {
   max-width: 100%;
   align-self: end;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
   grid-area: 1 / 2 / 2 / 3;
 }
 

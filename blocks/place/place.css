@@ -1,8 +1,8 @@
 .place {
   display: grid;
-  grid-template-columns: 460px auto;
+  grid-template-columns: 460px 1fr;
   grid-template-rows: auto auto;
-  width: 97%;
+  width: 100%;
   gap: 48px 40px;
 }
 
@@ -19,7 +19,7 @@
   .place {
     grid-template-columns: 340px 1fr;
     grid-template-rows: auto 1fr;
-    gap: 42px 28px;
+    gap: 48px 28px;
   }  
 }
 

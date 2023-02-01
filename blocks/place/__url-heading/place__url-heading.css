@@ -3,14 +3,7 @@
   width: 100%;
   font-size: 12px;
   font-weight: 400;
-  line-height: 170%;
+  line-height: 12px;
   letter-spacing: 2px;
   margin: 0 0 12px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-}
- 
-@media screen and (max-width: 320px) {
-  .place__url-heading {
-    line-height: 100%;
-  }
 }

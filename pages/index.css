@@ -26,7 +26,6 @@
 @import url(../blocks/intro/__span-list/intro__span-list.css);
 
 @import url(../blocks/photo/photo.css);
-@import url(../blocks/photo/__items/photo__items.css);
 @import url(../blocks/photo/__item/photo__item.css);
 
 @import url(../blocks/places/places.css);
@@ -49,7 +48,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-
-
-
