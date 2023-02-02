@@ -1,7 +1,6 @@
 .footer__links {
   display: flex;
   max-width: 70%;
-  width: calc(100% - 30%);
   gap: 18px;
 }
 

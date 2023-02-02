@@ -1,6 +1,5 @@
 .footer__copyright {
   max-width: 30%;
-  width: calc(100% - 70%);
   color: white;
   font-size: 14px;
   font-weight: 400;
@@ -14,7 +13,6 @@
   .footer__copyright {
     line-height: 14px;
     max-width: 100%;
-    width: 100%;
     justify-content: start;
     margin: 0;
   }
